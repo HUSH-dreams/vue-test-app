@@ -1,6 +1,5 @@
 <template>
   <component :is="layout + '-layout'" v-if="layout"></component>
-  <h2>Еще что-то новое</h2>
 </template>
 
 <script>
