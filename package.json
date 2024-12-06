@@ -1,0 +1,26 @@
+{
+  "name": "last-vue",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "axios": "^1.7.8",
+    "vee-validate": "^4.14.7",
+    "vue": "^3.5.13",
+    "vue-router": "^4.4.5",
+    "vuex": "^4.0.2",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.1",
+    "vite-plugin-vue-devtools": "^7.6.5"
+  }
+}
